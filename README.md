@@ -2,4 +2,7 @@
 
 - React
 - Vite
+- Tailwindcss
+- Heroicons
+- React Syntax Highlighter
 
