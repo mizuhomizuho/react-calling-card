@@ -1,4 +1,5 @@
 export default {
+    comment: 'https://github.com/',
     home: {
         languages: [
             'Java',

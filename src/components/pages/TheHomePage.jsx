@@ -8,7 +8,7 @@ const TheHomePage = () => {
 
     return (
         <SyntaxHighlighter language="javascript" style={dracula} showLineNumbers={true} wrapLines={true}>
-            {`// https://github.com/mizuhomizuho?tab=repositories
+            {`// ${config.comment}
             \n${JSON.stringify(content, null, 2)}`}
         </SyntaxHighlighter>
     );
