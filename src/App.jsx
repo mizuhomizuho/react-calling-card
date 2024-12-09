@@ -10,6 +10,9 @@ const App = () => {
     const [currentPage, setCurrentPage] = React.useState(normalizePage());
 
     function normalizePage() {
+        if (location.protocol !== 'https:') {
+            location.href = 'https://' + location.hostname;
+        }
         const pageHash = location.hash.slice(1);
         if (isPageHashValid(pageHash)) {
             return NAV_ITEMS.find(({page}) => page === pageHash);
