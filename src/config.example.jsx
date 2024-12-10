@@ -1,4 +1,5 @@
 export default {
+    h1: 'Calling card',
     comment: 'https://github.com/',
     home: {
         languages: [
