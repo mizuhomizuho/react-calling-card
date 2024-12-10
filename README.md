@@ -1,5 +1,7 @@
 # React calling card
 
+## Technologies used:
+
 - React
 - Vite
 - Tailwindcss
